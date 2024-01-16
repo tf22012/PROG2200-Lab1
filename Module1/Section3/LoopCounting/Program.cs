@@ -13,6 +13,7 @@ namespace LoopCounting
             var counter = 1;
 
             // Removed parent for loop and replaced it with an if statement:
+            // ERROR: Does not repeat 5 times FIX!!!
             if (counter <= 5)
             {
                 for (int i = 1; i <= 10; i++)
